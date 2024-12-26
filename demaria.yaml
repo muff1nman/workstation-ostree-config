@@ -1,0 +1,59 @@
+include:
+  - sway-atomic.yaml
+
+packages:
+  - neovim
+  - pass
+  - golang
+  - z
+  - sshuttle
+  - git-lfs
+  - ShellCheck
+  - minisign
+  - signify
+  - yubikey-manager
+  - wireguard-tools
+  - openssl
+  - vlc
+  - open-vm-tools
+  - nheko
+  - dejavu-sans-mono-fonts
+  - transmission
+  - gimp
+  - libreoffice-calc
+  - libreoffice-writer
+  - libreoffice-impress
+  - ffmpeg 
+  - vlc-plugins-freeworld
+  - mesa-va-drivers-freeworld
+  - mesa-vdpau-drivers-freeworld
+  - gstreamer1-plugins-bad-free-extras
+  - gstreamer1-vaapi
+  - intellij-idea-ultimate
+  - goland
+  - pycharm-professional
+
+exclude-packages:
+  - ffmpeg-free
+  - libavcodec-free
+  - mesa-va-drivers
+  - libavdevice-free
+  - libavfilter-free
+  - libavformat-free
+  - libavutil-free
+  - libpostproc-free
+  - libswresample-free
+  - libswscale-free
+
+# Kept in the leaf manifest as they are overwritten by Pungi in composes
+repos:
+  - fedora-41
+  - fedora-41-updates
+  - fedora-cisco-openh264
+  - rpmfusion-free
+  - rpmfusion-free-updates
+  - jetbrains
+
+add-files:
+  - - rofi-pass/rofi-pass
+    - /usr/bin/rofi-pass

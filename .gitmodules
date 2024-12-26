@@ -1,0 +1,3 @@
+[submodule "rofi-pass"]
+	path = rofi-pass
+	url = git@github.com:carnager/rofi-pass.git
