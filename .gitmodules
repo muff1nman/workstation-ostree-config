@@ -1,3 +1,3 @@
 [submodule "rofi-pass"]
 	path = rofi-pass
-	url = git@github.com:carnager/rofi-pass.git
+	url = git@github.com:Seme4eg/rofi-pass-wayland.git
