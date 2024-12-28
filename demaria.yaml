@@ -2,6 +2,13 @@ include:
   - sway-atomic.yaml
 
 packages:
+  - htop
+  - iotop
+  - nmon
+  - nmap-ncat
+  - net-tools
+  - dcfldd
+  - squashfs-tools
   - neovim
   - pass
   - wl-clipboard
@@ -30,6 +37,7 @@ packages:
   - mesa-vdpau-drivers-freeworld
   - gstreamer1-plugins-bad-free-extras
   - gstreamer1-vaapi
+  - kubernetes-client
   - intellij-idea-ultimate
   - goland
   - pycharm-professional
